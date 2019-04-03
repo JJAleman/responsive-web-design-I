@@ -327,3 +327,26 @@ li {
 	height: 290px;
 	margin-top: 30px;
 }
+
+/* Media Quieries */
+
+@media (max-width: 800px) {
+	.container {
+		width: 800px;
+		background: dodgerblue;
+	}
+	.mobile-hide {
+		display: none;
+	}
+
+
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 500px;
+		background: aqua;
+	}
+}
+
+
