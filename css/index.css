@@ -221,9 +221,7 @@ button {
 	justify-content: space-between;
 	align-items: flex-start;
 	margin-top: 30px;
-
 }
-
 
 .middle-img {
 	width: auto;
@@ -338,7 +336,6 @@ li {
 	.container {
 		width: 800px;
 		margin: 20px;
-		background: dodgerblue;
 	}
 
 	.nav-bar {
@@ -370,18 +367,60 @@ li {
 	.mobile-hide {
 		display: none;
 	}
-	.top-services {
-		border-top: 1px solid black;
+	.top {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
-		margin: 15px 0 30px 0;
+		align-items: flex-start;
+		margin-top: 30px;
+		margin-right: 20px;
 	}
+	
 
 }
 
 @media (max-width: 500px) {
 	.container {
 		width: 500px;
+		margin: 0 auto;
 		background: aqua;
 	}
+	.nav-bar {
+		display: flex;
+		text-decoration: none;
+		flex-direction: column;
+		color: lightgray;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 40px;
+	}
+	a {
+		font-size: 22px;
+		padding: 20px;
+		margin: 0 34px;
+		text-align: center;
+		text-decoration: none;
+		color: lightgray;
+		border-top: 1px solid black;
+		width: 500px;
+	}
+	.top-services {
+		border-top: 1px solid black;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 20px;
+	}
+	.middle-img {
+		width: 460px;
+		margin: 20px;
+	}
+	.bottom-services {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		margin: 20px;
+
+	
+
 }
