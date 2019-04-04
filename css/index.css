@@ -335,7 +335,6 @@ li {
 @media (max-width: 800px) {
 	.container {
 		width: 800px;
-		margin: 20px;
 	}
 
 	.nav-bar {
@@ -367,13 +366,33 @@ li {
 	.mobile-hide {
 		display: none;
 	}
+	.middle-img {
+		width: 760px;
+		margin: 20px;
+	}
+	.top-services {
+		border-top: 1px solid black;
+		display: flex;
+		justify-content: space-between;
+		margin: 20px;
+	}
 	.top {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: flex-start;
 		margin-top: 30px;
-		margin-right: 20px;
+	}
+	.bottom-services {
+		display: flex;
+		justify-content: flex-start;
+		margin: 20px;
+		margin-top: 0px;
+	}
+	.contact-section {
+		border-top: 1px solid black;
+		margin-top: 30px;
+		margin: 20px;
 	}
 	
 
@@ -383,7 +402,6 @@ li {
 	.container {
 		width: 500px;
 		margin: 0 auto;
-		background: aqua;
 	}
 	.nav-bar {
 		display: flex;
@@ -420,6 +438,12 @@ li {
 		flex-direction: column;
 		justify-content: flex-start;
 		margin: 20px;
+	}
+	.contact-section {
+		border-top: 1px solid black;
+		margin-top: 30px;
+		margin: 20px;
+	}
 
 	
 
